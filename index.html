@@ -1,1 +1,61 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>File Browser</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+  <main class="container">
+    <h1>File Browser</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Icon</th>
+          <th>File Name</th>
+          <th>Type</th>
+          <th>Size</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><i class="fas fa-file-image"></i></td>
+          <td><a href="image.jpg" target="_blank">image.jpg</a></td>
+          <td>Image</td>
+          <td>~1.71 KB</td>
+        </tr>
+        <tr>
+          <td><i class="fas fa-code"></i></td>
+          <td><a href="hello.html" target="_blank">hello.html</a></td>
+          <td>HTML</td>
+          <td>~38 B</td>
+        </tr>
+        <tr>
+          <td><i class="fas fa-file-code"></i></td>
+          <td><a href="data.json" target="_blank">data.json</a></td>
+          <td>JSON</td>
+          <td>~30 B</td>
+        </tr>
+        <tr>
+          <td><i class="fas fa-file-lines"></i></td>
+          <td><a href="notes.txt" target="_blank">notes.txt</a></td>
+          <td>Text</td>
+          <td>~12 B</td>
+        </tr>
+        <tr>
+          <td><i class="fas fa-file-pdf"></i></td>
+          <td><a href="doc.pdf" target="_blank">doc.pdf</a></td>
+          <td>PDF</td>
+          <td>~11.8 KB</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
